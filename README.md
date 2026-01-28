@@ -26,9 +26,9 @@ Struktur folder utama project ini adalah sebagai berikut:
 
 ```
 geohadir/
-├── api/          # Backend API (Node.js + Express)
-├── mobile/       # Aplikasi Mobile (React Native + Expo)
-└── web/          # Web Admin (Next.js)
+├── api-geohadir/          # Backend API (Node.js + Express)
+├── mobile-geohadir/       # Aplikasi Mobile (React Native + Expo)
+└── web-geohadir/          # Web Admin (Next.js)
 ```
 
 ## 🛠️ Panduan Setup & Instalasi
@@ -44,7 +44,7 @@ geohadir/
 
 1.  **Clone Repository**:
     ```bash
-    git clone <URL_REPOSITORY_ANDA>
+    git clone https://github.com/alchemista27/geohadir.git
     cd geohadir
     ```
 
