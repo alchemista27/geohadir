@@ -3,3 +3,5 @@ api-geohadir/.env
 api-geohadir/node_modules/
 web-geohadir/.env.local
 web-geohadir/node_modules/
+mobile-geohadir/.env
+mobile-geohadir/node_modules/

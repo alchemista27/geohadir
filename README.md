@@ -53,10 +53,10 @@ geohadir/
     -   Buka **SQL Editor** dan jalankan query untuk membuat tabel `offices` dan `attendance_logs`.
     -   Ambil **URL Project**, **Anon Key**, dan **Service Role Key** dari Supabase Dashboard (Settings -> API).
 
-### 2. Setup Backend API (`/api`)
+### 2. Setup Backend API (`/api-geohadir`)
 
 1.  **Environment Variables**:
-    Buat file `.env` di dalam folder `api/`.
+    Buat file `.env` di dalam folder `api-geohadir/`.
     ```env
     # api/.env
     SUPABASE_URL=https://<your-project-id>.supabase.co
@@ -65,7 +65,7 @@ geohadir/
 
 2.  **Install & Jalankan**:
     ```bash
-    cd api
+    cd api-geohadir
     npm install
     node index.js
     ```
@@ -74,10 +74,10 @@ geohadir/
 3.  **Deploy ke Vercel**:
     Hubungkan repository GitHub Anda ke Vercel. Saat konfigurasi, pastikan untuk mengatur **Root Directory** ke `api/` dan menambahkan Environment Variables di dashboard Vercel.
 
-### 3. Setup Aplikasi Mobile (`/mobile`)
+### 3. Setup Aplikasi Mobile (`/mobile-geohadir`)
 
 1.  **Environment Variables**:
-    Buat file `.env` di dalam folder `mobile/`. Ganti URL API dengan URL Vercel Anda setelah deploy.
+    Buat file `.env` di dalam folder `mobile-geohadir/`. Ganti URL API dengan URL Vercel Anda setelah deploy.
     ```env
     # mobile/.env
     EXPO_PUBLIC_API_URL=https://<your-api-url>.vercel.app
@@ -87,17 +87,17 @@ geohadir/
 
 2.  **Install & Jalankan**:
     ```bash
-    cd mobile
+    cd mobile-geohadir
     npm install
     npx expo start
     ```
     Scan QR code yang muncul menggunakan aplikasi Expo Go di HP Anda.
 
-### 4. Setup Web Admin (`/web`)
+### 4. Setup Web Admin (`/web-geohadir`)
 
 1.  **Install & Jalankan**:
     ```bash
-    cd web
+    cd web-geohadir
     npm install
     npm run dev
     ```
